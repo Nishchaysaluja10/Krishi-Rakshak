@@ -142,7 +142,7 @@ function Hero({ t }) {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://placehold.co/600x400/86efac/1f2922?text=Farmer+Holding+Healthy+Crop"
+                src="./farmer.gif"
                 alt="Happy farmer with healthy crops"
                 className="w-full h-auto object-cover"
               />
