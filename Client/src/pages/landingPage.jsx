@@ -79,7 +79,7 @@ function Hero({ t }) {
             </motion.div>
             
             <motion.h1 
-              className="text-4xl md:text-5xl lg:text-7xl font-bold text-emerald-900 leading-tight tracking-tighter text-center"
+              className="text-4xl md:text-5xl lg:text-7xl font-bold text-emerald-900 leading-18 tracking-tighter text-center"
               variants={fadeInUp}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
