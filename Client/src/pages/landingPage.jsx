@@ -1,6 +1,7 @@
 import React from 'react';
 import { Leaf, Camera, Upload, Brain, FileText, ShieldCheck, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
+import krishi2Image from '../assets/krishi2.png';
 import { useLanguage } from '../contexts/LanguageContext';
 
 // Animation Variants
@@ -55,7 +56,7 @@ function Hero({ t }) {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* <div className="absolute top-20 -left-20 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 -right-20 w-96 h-96 bg-green-200/30 rounded-full blur-3xl"></div> */}
-        <img src="/src/assets/krishi2.png" alt="Background" className='absolute inset-0 w-full h-full object-cover rounded-3xl opacity-50'/>
+        <img src={krishi2Image} alt="Background" className='absolute inset-0 w-full h-full object-cover rounded-3xl opacity-50'/>
       </div>
       
       <div className="relative z-10 py-24 md:py-12 lg:py-18">
