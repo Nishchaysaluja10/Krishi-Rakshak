@@ -65,7 +65,7 @@ function Hero({ t }) {
           initial="initial"
           animate="animate"
         >
-          {/* Text Content */}
+         
           <div className="text-center md:text-left">
             <motion.div
               variants={fadeInUp}
